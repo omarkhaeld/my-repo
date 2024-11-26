@@ -1,10 +1,13 @@
 name: testci/cd
+
 on:
- push:
-  branches: [main]
+  push:
+    branches: 
+      - main
+
 jobs:
- build:
-  runs-on: ubuntu-latest
-  steps:
-   - name: wirte fuck you 
-     run: echo "fuck you"
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print message
+        run: echo "fuck you"
