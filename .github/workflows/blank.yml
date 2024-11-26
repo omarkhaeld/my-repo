@@ -9,5 +9,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Print message
-        run: echo "fuck you"
+      - name: Print messsage
+        run: echoo "fuck you"
